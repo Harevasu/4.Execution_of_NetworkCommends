@@ -37,7 +37,8 @@ while True:
                 response=str(ping(hostname,verbose=True))
                 c.send(response.encode())
             except Exception as e:
-                c.send("ping failed  {}".format(e).encode())```
+                c.send("ping failed  {}".format(e).encode())
+```
 ```        else:
             c.send("Hostname not provided".encode())
     except Exception as e:
