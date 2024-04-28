@@ -38,8 +38,7 @@ while True:
                 c.send(response.encode())
             except Exception as e:
                 c.send("ping failed  {}".format(e).encode())
-```
-```        else:
+        else:
             c.send("Hostname not provided".encode())
     except Exception as e:
         print("Error: ",e)
