@@ -2,15 +2,10 @@
 ## AIM :Use of Network commands in Real Time environment
 ## Software : Command Prompt And Network Protocol Analyzer
 ## Procedure: To do this EXPERIMENT- follows these steps:
-<BR>
 In this EXPERIMENT- students have to understand basic networking commands e.g cpdump, netstat, ifconfig, nslookup ,traceroute and also Capture ping and traceroute PDUs using a network protocol analyzer 
-<BR>
 All commands related to Network configuration which includes how to switch to privilege mode
-<BR>
 and normal mode and how to configure router interface and how to save this configuration to
-<BR>
 flash memory or permanent memory.
-<BR>
 This commands includes
 <BR>
 • Configuring the Router commands
@@ -25,7 +20,6 @@ This commands includes
 <BR>
 • Other IP Commands e.g. show ip route etc.
 <BR>
-
 ## PROGRAM:
 ### CLIENT:
 ```
@@ -77,15 +71,12 @@ target = ["www.google.com"]
 result, unans = traceroute(target,maxttl=32) 
 print(result,unans)
 ```
-
 ## Output:
 ### CLIENT:
 ![image](https://github.com/Harevasu/4.Execution_of_NetworkCommends/assets/147985044/8db6ea32-232e-4e4d-9cb8-17fe28905f80)
-
 ### SERVER:
 ![image](https://github.com/Harevasu/4.Execution_of_NetworkCommends/assets/147985044/cc32b8eb-957c-4693-b025-9aa40d34bf97)
 ### TRACEROUTE COMMAND:
 ![image](https://github.com/Harevasu/4.Execution_of_NetworkCommends/assets/147985044/a3a76774-1fc5-453b-a0fe-b1bd35d1595a)
-
 ## Result
 Thus Execution of Network commands Performed 
