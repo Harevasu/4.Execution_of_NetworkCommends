@@ -22,8 +22,7 @@ This commands includes
 <BR>
 ## PROGRAM:
 ### CLIENT:
-```
-import socket
+```import socket
 from pythonping import ping
 s=socket.socket()
 s.bind(('localhost',8000))
@@ -38,10 +37,8 @@ while True:
                 response=str(ping(hostname,verbose=True))
                 c.send(response.encode())
             except Exception as e:
-                c.send("ping failed  {}".format(e).encode())
-```
-```
-        else:
+                c.send("ping failed  {}".format(e).encode())```
+```        else:
             c.send("Hostname not provided".encode())
     except Exception as e:
         print("Error: ",e)
